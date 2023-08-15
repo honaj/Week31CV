@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>                 
+
+<body>
+<div id="header">
+    <h1 id="name">LAUREN IPSUM</h1>
+</div>
+<div id="bio">
+    <div id="bio-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae erat in sapien vehicula aliquet quis vel justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed dictum enim ac turpis viverra, id dictum ex ultrices.</p>
+    </div>
+    <div id="contact-info">
+        <p>Email: example@example.com</p>
+        <p>Phone: 123-456-7890</p>
+    </div>
+</div>
+<div class="horizontal-section">
+    <div class="section-title">
+        <h2 class="section-title">Education</h2>
+    </div>
+    <div class="section-content">
+        <div class="subsection">
+            <h3 class="content-header">Bachelor's Degree</h3>
+            <h5 class="timespan">Malmö University, 2017-2020</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="subsection">
+            <h3 class="content-header">Master's Degree</h3>
+            <h5 class="timespan">Malmö University, 2020-2022</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+</div>
+<div class="horizontal-section">
+    <div class="section-title">
+        <h2 class="section-title">Experience</h2>
+    </div>
+    <div class="section-content">
+        <div class="subsection">
+            <h3 class="content-header">Intern</h3>
+            <h5 class="timespan">A workplace, 2017-2018</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="subsection">
+            <h3 class="content-header">Developer</h3>
+            <h5 class="timespan">Another workplace, 2022-present</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+</div>
+<div class="horizontal-section">
+    <div class="section-title">
+        <h2 class="section-title">Skills</h2>
+    </div>
+    <div class="section-content">
+        <div class="subsection">
+            <ul>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+                <li>Node.js</li>
+                <li>React</li>
+                <li>Database Management (SQL & NoSQL)</li>
+                <li>UI/UX Design Principles</li>
+                <li>Git and Version Control</li>
+                <li>Problem Solving</li>
+                <li>Communication Skills</li>
+                <li>Project Management</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+
+<style>
+    body {
+        font-family: 'Jost', sans-serif;
+        background-color: #E7D7AD;
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    #header {
+        text-align: center;
+        font-size: 2.5em;
+        color: #282828;
+    }
+
+    #bio {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 16px 16px;
+        font-size: 1.1em;
+        margin: 0 auto;
+    }
+    
+    #bio-text, #contact-info {
+        max-width: 40%;
+        margin: 0 auto;
+    }
+
+    .horizontal-section {
+        display: flex;
+        border-top: 2px solid #282828;
+        align-items: center;
+    }
+
+    .section-title {
+        flex: 1.5;
+        padding: 16px;
+        font-size: 1.4em;
+        text-transform: uppercase;
+    }
+
+    .section-content {
+        flex: 3.5;
+        padding: 16px;
+        justify-content: flex-start;
+    }
+
+    .timespan {
+        font-style: italic;
+    }
+
+    .subsection {
+
+    }
+</style>
+</html>
